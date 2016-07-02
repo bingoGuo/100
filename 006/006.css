@@ -1,0 +1,23 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+header{
+	text-align: center;
+	font-size: 2em;
+	background-color: #da3;
+}
+.level{
+	float: left;
+	font-size: 2em;
+	font-family: cursive;
+}
+#main{
+	margin: 1em auto;
+	width: 550px;
+	height: 550px;
+}
+#main div{
+	margin: 0px 2px;
+	display: inline-block;
+}

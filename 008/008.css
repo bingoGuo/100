@@ -1,0 +1,42 @@
+body{
+	background-color: #B6FBFF;
+}
+header{
+	text-align: center;
+}
+#calendar{
+	width: 15em;
+	margin: auto;
+	padding-top: 1em;
+	padding-left: 3em;
+	border-radius: 2em;
+	background-color: #4de;
+}
+.monthandyear{
+	font-size: 3em;
+	float: right;
+	margin-right: .2em;
+	font-family: cursive;
+	text-shadow: 2px 2px 2px #5323FC;
+}
+#date{
+	float: left;
+	font-size: 6em;
+	font-family: fantasy;
+	text-shadow: 2px 2px 2px #5323FC;
+}
+#time{
+	clear: both;
+	font-size: 3em;
+	font-family: cursive;
+	overflow: hidden;
+	text-shadow: 2px 2px 2px #5323FC;
+}
+button{
+	margin-left: 1em;
+	font-size: 1.3em;
+	border: transparent;
+	border-radius: 0.2em;
+	background-color:transparent;
+	cursor: pointer;
+}

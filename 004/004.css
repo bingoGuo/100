@@ -1,0 +1,22 @@
+#main{
+    margin: 100px auto;
+    width: 70%;
+}
+#main div{
+    margin: 3px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+.start{
+    background-color: orange;
+}
+.after{
+    background-color: yellow;
+}
+footer{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}

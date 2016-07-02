@@ -1,0 +1,52 @@
+*{
+	font-size: 30px;
+}
+h5{
+	font-size: 20px;
+	margin: 10px 0px;
+}
+ul{
+	width: 1000px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	position: relative;
+}
+.list{
+	display: inline-block;
+}
+.line{
+	position: absolute;
+	top: 0;
+	margin-left: -24px;
+	bottom: -1px;
+	width: 2px;
+	background-color: #d0d6d9;
+}
+.dot{
+	position: absolute;
+	top: 10px;
+	margin-left: -30px;
+	width: 14px;
+	height: 14px;
+	background: url(step_dots.png) 0 0 no-repeat;
+}
+li:first-child .line{
+	top: 13px;
+}
+li:last-child .line{
+	bottom: 13px;
+}
+.post{
+	display: none;
+}
+.post li {
+	display: inline-block;
+	padding: 10px;
+}
+.post li:hover {
+	box-shadow: 0px 5px 5px #d0d6d9;
+}
