@@ -1,0 +1,78 @@
+body{
+	background-color: #ccc;
+	margin: 0px;
+}
+dt,dd{
+	display: inline-block;
+	margin: 5px 0;
+	vertical-align: top;
+	line-height: 30px;
+}
+dt{
+	width: 120px;
+	text-align: right;
+}
+dl img{
+	width: 350px;
+	height: 350px;
+}
+li{
+	line-height: 30px;
+}
+span{
+	font-size: 25px;
+	font-weight: bold;
+}
+h1{
+	text-indent:80px;
+}
+h2{
+	padding-left: 30px;
+	background-color: #FBC141;
+}
+#page{
+	margin: 0 auto;
+	padding: 70px;
+	background-color: #fff;
+	width: 1050px;
+	height: 1540px;
+	font-size: 20px;
+}
+.left_page{
+	width: 450px;
+	float: left;
+}
+.right_page{
+	border-left: 4px solid #aaa;
+	padding-left: 20px;
+	width: 550px;
+	float: left;
+}
+.left_page dd{
+	padding-left: 20px;
+	width: 300px;
+}
+.right_page dd{
+	padding-left: 20px;
+	width: 400px;
+}
+.profile_photo{
+	width: 230px;
+	height: 230px;
+	margin-top: 60px;
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+	left: 70px;
+}
+.profile_photo img{
+	position: relative;
+	top: -30px;
+	width: 230px;
+	height: 322px;
+}
+.objective{
+	font-size: 23px;
+	font-weight: bold;
+}
+

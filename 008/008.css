@@ -1,4 +1,8 @@
-body{
+#main{
+	margin: 100px auto;
+	width: 400px;
+	padding: 20px;
+	border-radius: 10px;
 	background-color: #B6FBFF;
 }
 header{
@@ -39,4 +43,9 @@ button{
 	border-radius: 0.2em;
 	background-color:transparent;
 	cursor: pointer;
+}
+footer{
+	text-align: center;
+	font-size: 40px;
+	font-family: monospace;
 }
